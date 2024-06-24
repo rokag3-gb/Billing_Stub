@@ -1,7 +1,4 @@
-﻿using Azure;
-using System.Collections.Frozen;
-
-namespace Tmon.Collector.Net;
+﻿namespace Collector_AWS.Net;
 
 public class ZendeskClient
 {

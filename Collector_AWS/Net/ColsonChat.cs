@@ -1,4 +1,4 @@
-﻿namespace Tmon.Collector.Net;
+﻿namespace Collector_AWS.Net;
 
 public class ColsonChat : IDisposable
 {

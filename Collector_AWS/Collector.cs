@@ -1,10 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net.Sockets;
-using Tmon.Collector.Net;
-
-namespace Tmon.Collector;
+﻿namespace Collector_AWS;
 
 public class Collector : IDisposable
 {

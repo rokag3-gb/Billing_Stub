@@ -1,4 +1,4 @@
-﻿namespace Tmon.Collector.Helper;
+﻿namespace Collector_AWS.Helper;
 
 public static class Utf8
 {

@@ -1,7 +1,4 @@
-﻿using System.Runtime.Intrinsics.X86;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace Tmon.Collector;
+﻿namespace Collector_AWS;
 
 public class Program
 {
@@ -9,7 +6,7 @@ public class Program
     {
         try
         {
-            Logger.log($"Tmon.Collector started.");
+            Logger.log($"Collector_AWS started.");
 
             ServicePointManager.SecurityProtocol =
                 SecurityProtocolType.Tls
@@ -88,7 +85,7 @@ public class Program
             {
                 using (ColsonChat colson = new())
                 {
-                    var _message = $"# 😈 TicketMonster Collector 수집 내역<br>";
+                    var _message = $"# 😈 Collector_AWS 수집 내역<br>";
                     //_message += "<br>";
                     _message += "※ 수집 조건: 최근 3일간 수정(UpdatedAt)된 티켓<br>";
                     _message += "<br>";
@@ -125,7 +122,7 @@ public class Program
                 };
             }
 
-            Logger.log($"Tmon.Collector completed.");
+            Logger.log($"Collector_AWS completed.");
         }
         catch (Exception ex)
         {

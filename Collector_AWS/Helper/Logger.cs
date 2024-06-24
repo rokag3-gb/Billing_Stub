@@ -1,4 +1,4 @@
-﻿namespace Tmon.Collector;
+﻿namespace Collector_AWS;
 
 public static class Logger
 {
